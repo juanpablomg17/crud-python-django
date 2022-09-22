@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'employee',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'crudexample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'employee.db',
+        'NAME': 'user.db',
     }
 }
 
